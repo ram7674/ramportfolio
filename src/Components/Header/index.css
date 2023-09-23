@@ -1,0 +1,85 @@
+.header-container{
+    height: 100%;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    background-image: url("/public/images/header.jpg");
+    background-size: cover;
+    padding: 0;
+  }
+  @media screen and (min-width: 600px) {
+    #responsive-navbar-nav{
+      display: flex;
+      justify-content: flex-end;
+    }
+    .nav-links:hover{
+      height: 35px;
+      width: 80px;
+      background-color: #f5f4ee;
+      color: #9a0f0f;
+      border-radius: 7px;
+    }
+  }
+  
+  .header-portfolio-card{
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+  .avatar{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin:0 10px 0 30px;
+  }
+  .ram-name{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;  
+  }
+  .nav-links{
+    margin-right: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    height: 35px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .minu-btn{
+    margin-right: 35px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .header-container{
+      width: 100vw;
+    }
+    .avatar{
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      margin:0 10px;
+    }
+    .ram-name{
+      font-size: 18px;
+    }
+    .nav-links{
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 10px;
+    }
+    .nav-links:hover{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      color: #9a0f0f;
+      font-weight: 700;
+      background-color: #fff;
+      transform: 0.2;
+    }
+  }
+  
+  

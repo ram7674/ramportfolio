@@ -1,0 +1,118 @@
+.skills-container{
+    height: 90vh;
+    width: 100vw;
+    background-color: #0d2b46;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills-heading{
+    color: #9a0f0f;
+    margin: 150px 0 50px;
+    font-size: 30px;
+}
+.skills-heading:hover{
+    color: #fff;
+}
+.card-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 60px;
+}
+.skill-logo{
+    height: 100px;
+    border-radius: 15px;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 10px;
+}
+.card-item1{
+    display: flex;
+    margin-bottom: 70px;
+}
+.card-item2{
+    display: flex;
+}
+.box1{
+    border: 1px solid #2a96d4;
+    box-shadow: 1px 1px 20px #59afe1, 1px 1px 20px #2a96d4;
+}
+.box2{
+    border: 1px solid #da560e;
+    box-shadow: 1px 1px 20px #ed8c57, 1px 1px 20px #d27949;
+}
+.box3{
+    border: 1px solid #19d9e7;
+    box-shadow: 1px 1px 20px #6dd8df, 1px 1px 20px #19d9e7;
+}
+.box4{ 
+    border: 1px solid #dbe823;
+    box-shadow: 1px 1px 20px #dad17e, 1px 1px 20px #dae08d;
+}
+.box5{
+    border: 1px solid #8854a7;
+    box-shadow: 1px 1px 20px #bf87e0, 1px 1px 20px #bd88db;
+}
+.box6{
+    border: 1px solid #f8fafb;
+    box-shadow: 1px 1px 20px #f8fafb, 1px 1px 20px #f8fafb;
+}
+
+.skill-logo:hover{
+    height: 120px;
+}
+
+@media screen and (max-width: 600px){
+    .skills-container{
+        height: 100%;
+    }
+    .card-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills-heading{
+        font-size: 23px;
+        margin: 50px 0px 70px;
+    }
+    .card-item1{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .cards{
+        width: 88%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        margin-right: 0;
+    }   
+    .skill-title{
+        font-size: 18px;
+    } 
+}

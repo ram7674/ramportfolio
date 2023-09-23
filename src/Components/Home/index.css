@@ -1,0 +1,55 @@
+.home-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(13, 43, 70);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-card{
+    background-image: linear-gradient(to right, rgb(185, 100, 100) , rgb(236, 236, 96));
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    outline: 5px solid rgb(221, 118, 63);
+}
+.card-para{
+    font-size: 27px;
+    font-weight: 800;
+    color: #52618d;
+}
+.name{
+    margin: 20px;
+    font-weight: 800;
+    color: #9a0f0f;
+    
+}
+.role{
+    font-size: 27px;
+    font-weight: 800;
+    color: #31478a;
+}
+.role-styl{
+    color: #0724e0;
+}
+
+@media screen and (max-width: 600px){
+    .home-card{
+        height: 35%;
+        width: 90%;
+    }
+    .card-para{
+        font-size: 20px;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .role{
+        font-size: 20px;
+    }
+}
